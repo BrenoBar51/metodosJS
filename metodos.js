@@ -39,7 +39,7 @@ const vendas = [50, 120, 100, 20, 15]
 const somaVendas = vendas.reduce(
         (valorAnterior, valorAtual) => {
             let total = valorAnterior + valorAtual
-            return total
+            return container.innerHTML = total
         }, 0
     );
 console.log(somaVendas)
